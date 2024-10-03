@@ -234,7 +234,7 @@ for i in range(12):
   folium.Marker(
       location = [results.iloc[i, 1], results.iloc[i, 2]],
       tooltip = "Click me!",
-      popup = result.iloc[i, 0],
+      popup = results.iloc[i, 0],
       icon = folium.Icon(color = "green"),
   ).add_to(m)
 
