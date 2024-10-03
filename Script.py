@@ -91,6 +91,9 @@ with st.sidebar:
     # Menambahkan logo perusahaan
     st.image("soundwave.webp")
 
+    # Menambahkan quotes
+    st.write("Autobots Inferior, Soundwave Superior - Soundwave")
+  
     # Mengambil start date dan end date
     start_date, end_date = st.date_input(
         label = "Rentang Waktu",
