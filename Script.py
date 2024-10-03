@@ -92,7 +92,8 @@ with st.sidebar:
     st.image("soundwave.webp")
 
     # Menambahkan quotes
-    st.write("'Autobots Inferior, Soundwave Superior' - Soundwave")
+    st.write("'Autobots Inferior, Soundwave Superior'")
+    st.write("- Soundwave)
   
     # Mengambil start date dan end date
     start_date, end_date = st.date_input(
