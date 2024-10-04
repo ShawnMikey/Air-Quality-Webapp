@@ -87,14 +87,7 @@ df["date"] = pd.to_datetime(df[datetime_features])
 st.title('Air Quality Dashboard :fog:')
 
 # Membuat sidebar untuk memilih range tanggal yang dianalisis
-with st.sidebar:
-    # Menambahkan logo perusahaan
-    st.image("soundwave.webp")
-
-    # Menambahkan quotes
-    st.write("'Autobots Inferior, Soundwave Superior'")
-    st.write("-- Soundwave")
-  
+with st.sidebar:  
     # Mengambil start date dan end date
     start_date, end_date = st.date_input(
         label = "Rentang Waktu",
